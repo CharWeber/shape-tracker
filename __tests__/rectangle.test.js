@@ -9,6 +9,6 @@ describe('Rectangle', () => {
 
   test('should correctly get the area of a rectangle object', () => {
     const rectangle = new Rectangle(3,5);
-    expect(rectangle.getArea()).toEqual(15)
+    expect(rectangle.getArea()).toEqual(15);
   });
 });
